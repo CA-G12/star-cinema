@@ -4,7 +4,7 @@ import { FaSearch } from 'react-icons/fa';
 import './Header.css';
 
 function Header(props) {
-  const { search, setSearch } = props;
+  const { search, setSearch, setHowItWorks } = props;
 
   const handleInput = (e) => {
     setSearch(e.target.value);
@@ -12,15 +12,29 @@ function Header(props) {
 
   return (
     <header className='header'>
-      <input 
-        type='text'
-        name='search'
-        id='search'
-        value={search}
-        placeholder='Search for movies by name ...'
-        onInput={handleInput}
+      <img 
+        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1dwLj789Csou34KUbDv_jXNuOCxSHep-gqA&usqp=CAU'
+        className='header-image'
+        alt='movies'
       />
-      <FaSearch icon="search" />
+      <fieldset className='search-box'>
+        <input 
+          type='search'
+          name='search'
+          id='search'
+          value={search}
+          placeholder='Search for movies by name ...'
+          onInput={handleInput}
+        />
+        <FaSearch className="search" />
+      </fieldset>
+      <button
+        type='button'
+        className='how-it-works'
+        onClick={setHowItWorks}
+      >
+          How it works
+        </button>
     </header>
   )
 }

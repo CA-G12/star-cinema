@@ -1,6 +1,15 @@
 .movies-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 0px 65px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+  padding: 0 2rem;
+}
+
+.fall-back {
+  font-size: xxx-large;
+  align-self: center;
+  margin-top: 10rem;
+  color: var(--light);
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
 }
