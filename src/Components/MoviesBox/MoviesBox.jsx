@@ -4,6 +4,8 @@ import MovieCard  from './MoviesCard/MovieCard.jsx';
 
 import { getData } from '../../utils/getData.js';
 
+import './MoviesBox.css'
+
 export default class MoviesBox extends Component {
   constructor (props) {
     super(props);
