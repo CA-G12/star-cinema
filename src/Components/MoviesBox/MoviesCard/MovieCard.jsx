@@ -13,7 +13,7 @@ export default function MovieCard(props) {
         alt='movie poster'
         className='movie-poster'
       />
-      <h1 className='movie-link'><a href={url}>{title}</a></h1>
+      <h1 className='movie-link'><a href={url} target='_blank' rel="noreferrer">{title}</a></h1>
       <section className='inner-section'>
         <h3 className='type'>{type}</h3>
         <section className='start-section'>

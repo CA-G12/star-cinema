@@ -33,7 +33,7 @@ export default class MoviesBox extends Component {
 
   render() {
     return !this.state.data ?
-    <div className='fall-back'>No data found!!!</div> :
+    <div className='fall-back'>Sorry, the term you entered has no matching data!</div> :
     (
     <section className='movies-container'>
       {

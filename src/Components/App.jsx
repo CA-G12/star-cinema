@@ -24,7 +24,7 @@ export default class App extends Component {
     return (
       <div className='app'>
         <Header search={this.state.search} setSearch={this.setSearch} setHowItWorks={this.setHowItWorks} />
-        { this.state.howItWorks && <HowItWorks /> }
+        { this.state.howItWorks && <HowItWorks setHowItWorks={this.setHowItWorks} /> }
         <MoviesBox search={this.state.search} />
       </div>
     )
