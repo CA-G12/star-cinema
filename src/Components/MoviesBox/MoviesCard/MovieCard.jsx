@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 
+import './MoviesCard.css'
+
 export default function MovieCard(props) {
   const { poster, title, url, rating, type } = props;
 
