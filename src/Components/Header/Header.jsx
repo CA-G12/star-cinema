@@ -4,7 +4,7 @@ import { FaSearch } from 'react-icons/fa';
 import './Header.css';
 
 function Header(props) {
-  const { search, setSearch } = props;
+  const { search, setSearch, setHowItWorks } = props;
 
   const handleInput = (e) => {
     setSearch(e.target.value);
@@ -28,7 +28,13 @@ function Header(props) {
         />
         <FaSearch className="search" />
       </fieldset>
-      <button type='button' className='how-it-works'>How it works</button>
+      <button
+        type='button'
+        className='how-it-works'
+        onClick={setHowItWorks}
+      >
+          How it works
+        </button>
     </header>
   )
 }

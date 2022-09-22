@@ -25,7 +25,6 @@ export default class MoviesBox extends Component {
     if (this.props.search !== prevProps.search) {
       getData(`https://yts.mx/api/v2/list_movies.jsonp?query_term=${this.props.search}`)
         .then((movie) => this.setState((prevState, prevProps) => {
-          console.log(movie.data);
           return { data: movie.data.movies }
         }))
         .catch((err) => this.setState((prevState, prevProps) => ({ ...prevState, err })));
@@ -33,7 +32,6 @@ export default class MoviesBox extends Component {
   }
 
   render() {
-    console.log(this.state.data);
     return !this.state.data ?
     <div className='fall-back'>No data found!!!</div> :
     (
