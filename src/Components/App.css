@@ -12,3 +12,8 @@ body {
   height: 100vh;
   font-family: 'Dosis', sans-serif;
 }
+.app {
+  background-color: #23272F;
+  min-height: 100vh;
+
+}
