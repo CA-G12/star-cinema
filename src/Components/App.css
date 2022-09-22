@@ -21,6 +21,8 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 .app {
+  width: 100%;
+  min-height: 100vh;
   background-color: var(--primary-color);
   min-height: 100vh;
   display: flex;
