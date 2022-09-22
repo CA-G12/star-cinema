@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaSearch } from 'react-icons/fa';
 
+import './Header.css';
+
 function Header(props) {
   const { search, setSearch } = props;
 
@@ -11,7 +13,7 @@ function Header(props) {
   return (
     <header className='header'>
       <input 
-        type='search'
+        type='text'
         name='search'
         id='search'
         value={search}

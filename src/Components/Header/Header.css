@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    width: 700px;
+    height: 57px;
+    border-radius: 40px;
+    padding-left: 45px;
+    font-size: 25px;
+    margin: 102px;
+    position: relative;
+    border: none;
+}
+#search:hover , #search:focus {
+    outline: 1px solid #b9bcd6 ;
+    box-shadow: 0px 0px 10px 2px #51557E;
+}
+
+.header svg {
+    position: absolute;
+    top: 122px;
+    right: 348px;
+    font-size: 20px;
+}
+
+.fall-back {
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
