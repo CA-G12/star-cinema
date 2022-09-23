@@ -16,6 +16,7 @@ function Header(props) {
         src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1dwLj789Csou34KUbDv_jXNuOCxSHep-gqA&usqp=CAU'
         className='header-image'
         alt='movies'
+        onClick={() => {window.location.reload()}}
       />
       <fieldset className='search-box'>
         <input 

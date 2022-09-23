@@ -13,6 +13,7 @@
   width: 200px;
   height: 150px;
   border-radius: 2.5rem;
+  cursor: pointer;
 }
 
 .header .search-box {
