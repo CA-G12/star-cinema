@@ -4,7 +4,7 @@ Week nine's React project developed by Tareq Abu-Aqlain and Mustafa Salem.
 
 ## Live link
 
-You can visit the live link from ***[Here](https://632c5b82e3be772065539740--effulgent-biscotti-1327ee.netlify.app/)***.
+You can visit the live link from ***[Here](https://star-cinema.netlify.app/)***.
 
 ## User journey
 
